@@ -31,6 +31,4 @@ My name is Siqi Li, and I am a PhD student in the [Department of Electrical Engi
 
 My research interests lie in vision–language models (VLMs) and multimodal large language models(MLLMs). I am passionate about enhancing their capabilities and applying them to real-world scenarios where they can meaningfully help people. In particular, I am interested in training these models to learn from human interaction, integrate into robots and AI agents, and develop stronger reasoning abilities to understand and support human needs. I also focus on improving their robustness against real-world challenges and adversarial attacks, ensuring they remain reliable and trustworthy in practical applications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
