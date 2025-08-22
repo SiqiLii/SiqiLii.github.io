@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4111 Engineering Hall</p>
+    <p>University of California, Irvine</p>
     <p>Irvine, CA 92617</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -20,10 +21,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+#latest_posts:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#  limit: 3 # leave blank to include all the blog posts
 ---
 
 My name is Siqi Li, and I am a PhD student in the [Department of Electrical Engineering and Computer Science at the University of California, Irvine](https://engineering.uci.edu/dept/eecs), where I work under the supervision of [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the 
