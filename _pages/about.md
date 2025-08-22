@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Siqi Li, and I am a PhD student in the [Department of Electrical Engineering and Computer Science at the University of California, Irvine](https://engineering.uci.edu/dept/eecs), where I work under the supervision of [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the 
+My name is Siqi Li （我是你爹）, and I am a PhD student in the [Department of Electrical Engineering and Computer Science at the University of California, Irvine](https://engineering.uci.edu/dept/eecs), where I work under the supervision of [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the 
 [Resilient Cyber-Physical Systems Lab](https://rcpsl.eng.uci.edu/). 
 
 My research interests lie in vision–language models (VLMs) and multimodal large language models(MLLMs). I am passionate about enhancing their capabilities and applying them to real-world scenarios where they can meaningfully help people. In particular, I am interested in training these models to learn from human interaction, integrate into robots and AI agents, and develop stronger reasoning abilities to understand and support human needs. I also focus on improving their robustness against real-world challenges and adversarial attacks, ensuring they remain reliable and trustworthy in practical applications.
