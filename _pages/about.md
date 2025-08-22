@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4111 Engineering Hall</p>
-    <p>University of California, Irvine</p>
     <p>Irvine, CA 92617</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
