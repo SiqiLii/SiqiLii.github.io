@@ -11,7 +11,24 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc thesis-statement">{{ page.subtitle }}</p>
+    {% if page.research_pillars %}
+      <div class="research-pillars">
+        {% for pillar in page.research_pillars %}
+          {% if pillar.url %}
+            <a href="{{ pillar.url | relative_url }}" class="pillar">
+              <span class="pillar-icon">{{ pillar.icon }}</span>
+              <span class="pillar-label">{{ pillar.label }}</span>
+            </a>
+          {% else %}
+            <div class="pillar">
+              <span class="pillar-icon">{{ pillar.icon }}</span>
+              <span class="pillar-label">{{ pillar.label }}</span>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </header>
 
   <article>
@@ -42,24 +59,27 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 class="section-heading">
+        <span class="section-number">§1</span>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Recent Updates</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      <h2 class="section-heading">
+        <span class="section-number">§2</span>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Notes & Writing</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 class="section-heading">
+        <span class="section-number">{% if page.latest_posts and page.latest_posts.enabled %}§3{% else %}§2{% endif %}</span>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

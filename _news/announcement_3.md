@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-11-15 10:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+**EMNLP 2024** — Our paper on retrieval-augmented speech translation was accepted! Cross-modal retrieval improves rare word accuracy by 17.6%.

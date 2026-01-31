@@ -1,200 +1,184 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Siqi Li",
+    "label": "PhD Student in Computer Engineering",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "siqi.li@uci.edu",
+    "phone": "(415) 515-9562",
+    "url": "https://siqilii.github.io",
+    "summary": "Machine learning researcher focused on AI alignment and safety, including adversarial robustness, vision-language-action models, and LLM reasoning. Committed to building reliable AI systems through robust, systematic evaluation.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Engineering Hall 308",
+      "postalCode": "CA 92697",
+      "city": "Irvine",
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "University of California, Irvine",
+      "position": "PhD Student — Resilient Cyber-Physical Systems Lab",
+      "url": "https://rcpsl.eng.uci.edu/",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "summary": "Research on AI alignment and safety under Prof. Yasser Shoukry. Developing adversarial detection methods with formal guarantees, progress-monitored verification for VLA models, and LLM preference personalization.",
+      "highlights": [
+        "KoALA: Adversarial detector with provable guarantees (ICLR'26 submission)",
+        "Progress-monitored verification for vision-language-action robot policies",
+        "Reinforcement fine-tuning for LLM preference following"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "California Institute of Technology",
+      "position": "Visiting Student Researcher",
+      "url": "https://www.cms.caltech.edu/",
+      "startDate": "2022-12-01",
+      "endDate": "2024-05-01",
+      "summary": "Research on human-robot collaboration under Prof. John Doyle. Combined large language models with model-predictive control for task planning and trajectory optimization.",
+      "highlights": [
+        "Human natural language to robotic skills and control",
+        "LLM + MPC integration for robot task planning",
+        "Visual-language model feedback for improved performance"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of California, Irvine",
+      "location": "Irvine, CA, USA",
+      "url": "https://engineering.uci.edu/dept/eecs",
+      "area": "Computer Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "score": "4.0/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Karlsruhe Institute of Technology",
+      "location": "Karlsruhe, Germany",
+      "url": "https://www.kit.edu/english/",
+      "area": "Mechatronics and Information Technology (Robotics Track)",
+      "studyType": "M.Sc.",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-01",
+      "score": "3.9/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Tongji University",
+      "location": "Shanghai, China",
+      "url": "https://en.tongji.edu.cn/",
+      "area": "Vehicle Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2015-09-01",
+      "endDate": "2020-07-01",
+      "score": "90/100",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Graduate Dean's Recruitment Fellowship",
+      "date": "2024-09-01",
+      "awarder": "University of California, Irvine",
+      "url": "",
+      "summary": "Awarded to top 2% of incoming graduate students."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "AGS Conference Stipend",
+      "date": "2024-09-01",
+      "awarder": "University of California, Irvine",
+      "url": "",
+      "summary": "Awarded to top 5% of graduate students for conference travel."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "China Automotive Science and Technology Award",
+      "date": "2020-01-01",
+      "awarder": "China Society of Automotive Engineers",
+      "url": "",
+      "summary": "Highest prize for cloud control energy-saving algorithm development."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "KoALA: KL-L0 Adversarial Detector via Label Agreement",
+      "publisher": "arXiv (under review at ICLR 2026)",
+      "releaseDate": "2025-01-01",
+      "url": "https://arxiv.org/abs/2510.12752",
+      "summary": "Adversarial detection method combining KL divergence with L0-based label agreement, with formal detection guarantees."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Optimizing Rare Word Accuracy in Direct Speech Translation with a Retrieval-and-Demonstration Approach",
+      "publisher": "EMNLP 2024",
+      "releaseDate": "2024-11-01",
+      "url": "https://aclanthology.org/2024.emnlp-main.708/",
+      "summary": "Retrieval-augmented approach for rare word translation in end-to-end speech translation, achieving 17.6% improvement."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Vision-Language Models",
+        "Adversarial Robustness",
+        "Reinforcement Learning",
+        "LLM Fine-tuning",
+        "Retrieval-Augmented Generation"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "MATLAB",
+        "Julia",
+        "ROS"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Mandarin",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Professional",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "AI Safety & Alignment",
+      "icon": "fa-solid fa-shield",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Adversarial Robustness",
+        "Formal Verification",
+        "Trustworthy AI"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Robotics",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Vision-Language-Action Models",
+        "Human-Robot Collaboration",
+        "Autonomous Systems"
+      ]
     }
   ]
 }

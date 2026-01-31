@@ -5,24 +5,34 @@
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+// Colors - Refined academic palette
+$red-color: #c53030 !default;
+$red-color-dark: #9b2c2c !default;
+$orange-color: #c05621 !default;
+$blue-color: #2b6cb0 !default;
+$blue-color-dark: #1a365d !default;
+$cyan-color: #2c7a7b !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$green-color: #276749 !default;
+$green-color-lime: #68d391 !default;
+$green-color-dark: #22543d !default;
+$green-color-light: #c6f6d5 !default;
+$green-color-bright: #48bb78 !default;
+// Primary theme color - deep navy (authoritative, scholarly)
+$purple-color: #1a365d !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$pink-color: #b83280 !default;
+$pink-color-light: #fed7e2 !default;
+$yellow-color: #d69e2e !default;
+
+// Academic accent colors
+$accent-color: #c53030 !default;  // Muted red for emphasis
+$secondary-color: #2c5282 !default;  // Medium blue for links
+
+// Typography
+$serif-font: 'Source Serif 4', 'Georgia', serif !default;
+$mono-font: 'JetBrains Mono', 'Fira Code', monospace !default;
+$sans-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
