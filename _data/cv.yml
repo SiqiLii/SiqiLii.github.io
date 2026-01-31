@@ -2,96 +2,110 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Siqi Li
+    - name: Email
+      value: siqi.li@uci.edu
     - name: Languages
-      value: English, German
+      value: Mandarin (Native), English (Professional), German (Professional)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Engineering
+      institution: University of California, Irvine, USA
+      year: 2024 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 4.0/4.0"
+        - "Advisor: Prof. Yasser Shoukry"
+        - "Research: AI alignment, adversarial robustness, vision-language-action models"
+    - title: Visiting Student Researcher
+      institution: California Institute of Technology, USA
+      year: 2022 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "Department of Computing and Mathematical Sciences"
+        - "Advisor: Prof. John Doyle"
+        - "Project: Human Natural Language to Robotic Skills and Control"
+    - title: M.Sc. in Mechatronics and Information Technology
+      institution: Karlsruhe Institute of Technology, Germany
+      year: 2020 - 2022
+      description:
+        - "GPA: 3.9/4.0 (Robotics Track)"
+        - "Advisor: Prof. Jan Niehues"
+        - "Thesis: Retrieval-augmented end-to-end speech translation for rare word accuracy"
+    - title: B.Eng. in Vehicle Engineering
+      institution: Tongji University, China
+      year: 2015 - 2020
+      description:
+        - "GPA: 90/100"
+        - "Advisor: Prof. Zhiguo Zhao"
+        - "Thesis: Online optimal gearshift control for hybrid electric vehicles"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Ph.D. Student
+      institution: UC Irvine — Resilient Cyber-Physical Systems Lab
+      year: 2024 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: "KoALA: Adversarial Detection with Formal Guarantees"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designed KL + L0 label-agreement detector for adversarial inputs
+            - Established formal detection guarantees with rigorous proofs
+            - Validated on ResNet-18 and CLIP (ViT-B/32)
+        - title: "Progress-Monitored Verification for VLA Models"
+          contents:
+            - Proposed verifier-augmented framework for robot policy failure detection
+            - Built modular evaluation pipeline for simulated manipulation tasks
+        - title: "LLM Preference Following and Personalization"
+          contents:
+            - Implemented reinforcement fine-tuning for long-context preference following
+            - Built dynamic preference memory module for per-turn personalization
+    - title: Visiting Student Researcher
+      institution: California Institute of Technology
+      year: 2022 - 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Constructed human-robot collaboration framework for natural language to robotic control
+        - Combined LLM with model-predictive control for task planning and trajectory optimization
+        - Integrated visual-language model feedback for improved robot performance
+    - title: Master Thesis Research
+      institution: Karlsruhe Institute of Technology — AI4LT Lab
+      year: 2022
       description:
+        - Designed knowledge-based retrieval-augmented end-to-end speech translation
+        - Developed zero-shot learning for open-domain terminology recognition
+        - Published at EMNLP 2024
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Publications
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - "<b>Siqi Li</b>, Yasser Shoukry. <i>KoALA: KL-L0 Adversarial Detector via Label Agreement</i>. arXiv:2510.12752, 2025. (Under review at ICLR 2026)"
+    - "<b>Siqi Li*</b>, Danni Liu*, Jan Niehues. <i>Optimizing Rare Word Accuracy in Direct Speech Translation with a Retrieval-and-Demonstration Approach</i>. EMNLP 2024."
+    - "Yan Cui*, <b>Siqi Li*</b>, Yue Wang, Bolin Gao. <i>Data Protection of ICV Cloud Control Framework Using Fully Homomorphic Encryption</i>. CVCI 2020."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Graduate Dean's Recruitment Fellowship, UC Irvine (top 2%)
+        - AGS Conference Stipend, UC Irvine (top 5%)
+    - year: 2020
       items:
-        - Max Planck Medal
+        - China Automotive Science and Technology Award (highest prize)
+    - year: 2017-2018
+      items:
+        - First-Class Scholarship, Tongji University (top 3%)
+        - Outstanding Student, Tongji University (top 5%)
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C/C++, MATLAB, Julia, ROS, LaTeX
+    - title: ML Frameworks
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - PyTorch, JAX, HuggingFace Transformers
+    - title: Simulation
+      items:
+        - MATLAB/Simulink, CarSim, Isaac Sim

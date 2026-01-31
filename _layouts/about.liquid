@@ -15,10 +15,17 @@ layout: default
     {% if page.research_pillars %}
       <div class="research-pillars">
         {% for pillar in page.research_pillars %}
-          <div class="pillar">
-            <span class="pillar-icon">{{ pillar.icon }}</span>
-            <span class="pillar-label">{{ pillar.label }}</span>
-          </div>
+          {% if pillar.url %}
+            <a href="{{ pillar.url | relative_url }}" class="pillar">
+              <span class="pillar-icon">{{ pillar.icon }}</span>
+              <span class="pillar-label">{{ pillar.label }}</span>
+            </a>
+          {% else %}
+            <div class="pillar">
+              <span class="pillar-icon">{{ pillar.icon }}</span>
+              <span class="pillar-label">{{ pillar.label }}</span>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
