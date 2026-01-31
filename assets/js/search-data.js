@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -377,16 +377,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-my-phd-at-uc-irvine-joining-the-resilient-cyber-physical-systems-lab-grateful-for-the-graduate-dean-s-recruitment-fellowship",
+          title: 'Started my PhD at UC Irvine, joining the Resilient Cyber-Physical Systems Lab. Grateful...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-emnlp-2024-our-paper-on-retrieval-augmented-speech-translation-was-accepted-cross-modal-retrieval-improves-rare-word-accuracy-by-17-6",
+          title: 'EMNLP 2024 — Our paper on retrieval-augmented speech translation was accepted! Cross-modal retrieval...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-iclr-2026-submission-submitted-koala-our-adversarial-detection-method-with-formal-guarantees-we-prove-detection-bounds-for-vision-language-models-under-attack",
+          title: 'ICLR 2026 Submission — Submitted KoALA, our adversarial detection method with formal guarantees....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
