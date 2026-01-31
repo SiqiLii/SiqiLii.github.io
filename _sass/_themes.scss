@@ -24,6 +24,7 @@
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #1a202c;
+  --global-bg-image-opacity: 0.5;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -90,6 +91,7 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #1a202c;
   --global-newsletter-bg-color: #2d3748;
   --global-newsletter-text-color: #e2e8f0;
+  --global-bg-image-opacity: 0.15; // Lower opacity for dark mode
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
