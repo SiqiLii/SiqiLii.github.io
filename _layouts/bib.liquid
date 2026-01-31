@@ -185,6 +185,13 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.tldr %}
+      <!-- TL;DR summary -->
+      <div class="pub-tldr">
+        <strong>TL;DR:</strong> {{ entry.tldr }}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}

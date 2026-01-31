@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD student, University of California, Irvine</a>. #Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate · <a href='https://engineering.uci.edu/dept/eecs'>UC Irvine EECS</a> · Vision-Language Models & Robustness
 
 profile:
   align: right
@@ -15,6 +15,14 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+research_pillars:
+  - icon: "👁️‍🗨️"
+    label: "Vision-Language Robustness"
+  - icon: "🔍"
+    label: "Retrieval-Augmented Methods"
+  - icon: "🤖"
+    label: "Embodied AI Agents"
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -26,9 +34,24 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Siqi Li, and I am a PhD student in the [Department of Electrical Engineering and Computer Science at the University of California, Irvine](https://engineering.uci.edu/dept/eecs), where I work under the supervision of [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the 
-[Resilient Cyber-Physical Systems Lab](https://rcpsl.eng.uci.edu/). 
+Large multimodal models can describe images, answer complex questions, and even generate code from screenshots. But they also hallucinate, fail on rare concepts, and break under adversarial conditions.
 
-My research interests lie in vision–language models (VLMs) and multimodal large language models(MLLMs). I am passionate about enhancing their capabilities and applying them to real-world scenarios where they can meaningfully help people. In particular, I am interested in training these models to learn from human interaction, integrate into robots and AI agents, and develop stronger reasoning abilities to understand and support human needs. I also focus on improving their robustness against real-world challenges and adversarial attacks, ensuring they remain reliable and trustworthy in practical applications.
+**My research asks: what makes these failures systematic, and how do we fix them?**
 
+I'm a PhD candidate at [UC Irvine](https://engineering.uci.edu/dept/eecs), advised by [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the [Resilient Cyber-Physical Systems Lab](https://rcpsl.eng.uci.edu/). My work spans three areas:
+
+<div class="research-areas">
+  <div class="research-area">
+    <span class="area-marker">1.</span>
+    <strong>Retrieval-augmented multimodal learning</strong> — teaching models to "look things up" during inference, especially for rare vocabulary and edge cases.
+  </div>
+  <div class="research-area">
+    <span class="area-marker">2.</span>
+    <strong>Adversarial robustness for VLMs</strong> — understanding why vision-language models fail and building defenses that actually work in deployment.
+  </div>
+  <div class="research-area">
+    <span class="area-marker">3.</span>
+    <strong>Human-in-the-loop training</strong> — designing systems where models learn from interaction, not just static datasets.
+  </div>
+</div>
 
