@@ -24,6 +24,7 @@ Modern vision-language models achieve remarkable performance on standard benchma
 </div>
 
 **What we did:**
+
 - Designed a dual-head detector that flags inputs when prediction heads disagree
 - Established formal detection guarantees with rigorous mathematical proofs
 - Validated on ResNet-18 and CLIP (ViT-B/32) across standard adversarial benchmarks

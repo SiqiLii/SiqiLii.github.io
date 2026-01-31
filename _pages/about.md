@@ -42,7 +42,7 @@ announcements:
 I work on **AI robustness and alignment**, with a particular interest in what happens when intelligent systems leave clean benchmarks and enter the real world.
 
 My research asks a simple but uncomfortable question:  
-**how do we know an AI system is doing the *right thing* when it fails quietly, faces distribution shift, or is intentionally attacked?**
+**how do we know an AI system is doing the _right thing_ when it fails quietly, faces distribution shift, or is intentionally attacked?**
 
 While much of robustness research is mathematical, I approach the problem **both theoretically and engineering-first**. I build systems, stress them, break them, and then ask what guarantees actually survive deployment.
 
@@ -59,6 +59,7 @@ Previously, I was a visiting researcher at **Caltech**, working with
 I’m especially interested in robustness for **vision-language-action systems**, where failures are subtle, delayed, and hard to detect.
 
 My work spans:
+
 - **Formal and provable guarantees** (e.g., adversarial detection with correctness proofs)
 - **System-level verification** for VLA-based robot policies
 - **Engineering-heavy evaluation pipelines** that expose real failure modes
@@ -72,6 +73,7 @@ I care less about making models look good on paper — and more about **making f
 Beyond research prototypes, I enjoy building **interactive systems** that force models to operate under realistic constraints.
 
 I’ve worked on:
+
 - **Language-to-robot control systems** that integrate learning, planning, and feedback
 - **VR and game-like environments** (including Meta Quest–style setups) to study perception, interaction, and failure in embodied agents
 - **Simulation-driven stress tests** that reveal where “robust” models actually collapse
@@ -87,8 +89,9 @@ I work fluently in **three languages** (Mandarin, English, and German), both con
 I enjoy travel, food, and building things that work — which is probably why I’m drawn to problems where theory meets reality.
 
 I believe the most interesting AI research is:
-- rigorous but not fragile  
-- principled but hands-on  
-- serious, yet a little fun  
+
+- rigorous but not fragile
+- principled but hands-on
+- serious, yet a little fun
 
 If that resonates, feel free to reach out — I’m always happy to chat.

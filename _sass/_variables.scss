@@ -26,13 +26,17 @@ $pink-color-light: #fed7e2 !default;
 $yellow-color: #d69e2e !default;
 
 // Academic accent colors
-$accent-color: #c53030 !default;  // Muted red for emphasis
-$secondary-color: #2c5282 !default;  // Medium blue for links
+$accent-color: #c53030 !default; // Muted red for emphasis
+$secondary-color: #2c5282 !default; // Medium blue for links
 
 // Typography
-$serif-font: 'Source Serif 4', 'Georgia', serif !default;
-$mono-font: 'JetBrains Mono', 'Fira Code', monospace !default;
-$sans-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !default;
+$serif-font: "Source Serif 4", "Georgia", serif !default;
+$mono-font: "JetBrains Mono", "Fira Code", monospace !default;
+$sans-font:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);

@@ -6,10 +6,12 @@
 // Typography - Academic style with serif body text
 
 body {
-  font-family: 'Source Serif 4', Georgia, serif;
+  font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
   line-height: 1.75;
-  font-feature-settings: 'kern' 1, 'liga' 1;
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1;
 }
 
 p,
@@ -28,8 +30,16 @@ strong {
 }
 
 // Headings - slightly tighter tracking for authority
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
@@ -46,12 +56,16 @@ h2 {
 }
 
 // Monospace for technical elements
-code, pre, .mono, .technical-term {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+code,
+pre,
+.mono,
+.technical-term {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
 // Small caps for acronyms
-abbr, .acronym {
+abbr,
+.acronym {
   font-variant: small-caps;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -75,21 +89,23 @@ hr {
   background: var(--global-code-bg-color);
   border-radius: 4px;
   border-left: 3px solid var(--global-theme-color);
-  transition: transform 0.2s ease, border-color 0.2s ease;
-  
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+
   &:hover {
     transform: translateX(4px);
     border-color: var(--global-hover-color);
   }
-  
+
   .area-marker {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-weight: 500;
     color: var(--global-theme-color);
     margin-right: 0.75rem;
     flex-shrink: 0;
   }
-  
+
   strong {
     color: var(--global-theme-color);
   }
@@ -101,21 +117,21 @@ hr {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1.5rem;
-  
+
   .pillar {
     display: inline-flex;
     align-items: center;
     padding: 0.5rem 1rem;
     background: var(--global-code-bg-color);
     border-radius: 4px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 0.85rem;
     font-weight: 500;
     transition: all 0.2s ease;
     text-decoration: none;
     color: var(--global-text-color);
     border: 1px solid transparent;
-    
+
     &:hover {
       background: var(--global-theme-color);
       color: var(--global-hover-text-color);
@@ -123,19 +139,19 @@ hr {
       border-color: var(--global-theme-color);
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      
+
       .pillar-icon {
         transform: scale(1.1);
       }
     }
-    
+
     .pillar-icon {
       margin-right: 0.5rem;
       font-size: 1.1rem;
       transition: transform 0.2s ease;
     }
   }
-  
+
   a.pillar {
     cursor: pointer;
   }
@@ -147,7 +163,7 @@ hr {
   line-height: 1.6;
   color: var(--global-text-color-light);
   margin: 1rem 0;
-  
+
   em {
     color: var(--global-theme-color);
     font-style: italic;
@@ -329,8 +345,10 @@ ul.task-list input[type="checkbox"] {
 
   img {
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+
     &:hover {
       transform: scale(1.02);
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
@@ -340,7 +358,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 10px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.8rem;
     color: var(--global-text-color-light);
 
@@ -388,16 +406,16 @@ ul.task-list input[type="checkbox"] {
 // Post header styling - academic paper feel
 .post-header {
   margin-bottom: 2rem;
-  
+
   .post-title {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-bottom: 0.5rem;
   }
-  
+
   .desc {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     color: var(--global-text-color-light);
     line-height: 1.5;
@@ -413,20 +431,20 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--global-divider-color);
-  
+
   .section-number {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--global-theme-color);
   }
-  
+
   a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1.25rem;
     letter-spacing: -0.01em;
-    
+
     &:hover {
       text-decoration: none;
       color: var(--global-hover-color) !important;
@@ -439,14 +457,14 @@ ul.task-list input[type="checkbox"] {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--global-divider-color);
-  
+
   a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     color: var(--global-text-color-light);
     text-decoration: none;
     transition: color 0.2s ease;
-    
+
     &:hover {
       color: var(--global-theme-color);
     }
@@ -460,11 +478,11 @@ ul.task-list input[type="checkbox"] {
   margin: 1.5rem 0;
   border-radius: 4px;
   overflow-x: auto;
-  
+
   .equation-caption {
     display: block;
     margin-top: 0.75rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     color: var(--global-text-color-light);
   }
@@ -477,25 +495,25 @@ ul.task-list input[type="checkbox"] {
   border-radius: 6px;
   margin: 2rem 0;
   border-left: 4px solid var(--global-theme-color);
-  
+
   h3 {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--global-theme-color);
     margin-bottom: 1rem;
   }
-  
+
   .focus-item {
     margin-bottom: 1rem;
-    
+
     &:last-child {
       margin-bottom: 0;
     }
-    
+
     strong {
-      font-family: 'Inter', sans-serif;
+      font-family: "Inter", sans-serif;
       color: var(--global-text-color);
     }
   }
@@ -975,7 +993,7 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 
     span {
       font-size: 1.5rem;
@@ -988,7 +1006,7 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.05em;
@@ -1025,7 +1043,7 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
-          font-family: 'JetBrains Mono', monospace;
+          font-family: "JetBrains Mono", monospace;
           font-size: 0.75rem;
           padding: 0.2rem 0.5rem;
           border-radius: 2px;
@@ -1049,14 +1067,14 @@ footer.sticky-bottom {
 
       .title {
         font-weight: 600;
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         font-size: 1.05rem;
         line-height: 1.4;
       }
 
       .author {
         font-size: 0.95rem;
-        
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -1083,19 +1101,19 @@ footer.sticky-bottom {
           }
         }
       }
-      
+
       // TL;DR styling
       .pub-tldr {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         font-size: 0.85rem;
         color: var(--global-text-color-light);
         margin-top: 0.5rem;
         padding: 0.5rem 0.75rem;
         background: var(--global-code-bg-color);
         border-radius: 4px;
-        
+
         strong {
-          font-family: 'JetBrains Mono', monospace;
+          font-family: "JetBrains Mono", monospace;
           font-size: 0.75rem;
           color: var(--global-theme-color);
           letter-spacing: 0.05em;
@@ -1104,14 +1122,14 @@ footer.sticky-bottom {
 
       .links {
         margin-top: 0.75rem;
-        
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-divider-color);
           padding: 0.25rem 0.75rem;
           margin-left: 0;
           margin-right: 0.25rem;
-          font-family: 'JetBrains Mono', monospace;
+          font-family: "JetBrains Mono", monospace;
           font-size: 0.75rem;
           border-radius: 3px;
           transition: all 0.2s ease;

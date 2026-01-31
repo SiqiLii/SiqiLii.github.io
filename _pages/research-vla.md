@@ -26,6 +26,7 @@ My research develops **verification frameworks** that monitor task progress and 
 </div>
 
 **What we're building:**
+
 - Verifier-augmented framework to estimate task progress during execution
 - Failure mode detection for VLA-based robot policies
 - Modular evaluation pipeline across simulated manipulation tasks
@@ -45,6 +46,7 @@ VLA models can fail silently — producing confident but incorrect actions. Prog
 </div>
 
 **What we built:**
+
 - Human-robot collaboration framework for natural language to robotic control
 - Integration of LLM task planning with MPC trajectory optimization
 - Visual-language model feedback loop for improved robot performance
