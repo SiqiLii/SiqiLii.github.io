@@ -24,11 +24,13 @@ Multilingual AI systems often fail on **rare words**, **domain-specific terminol
 </div>
 
 **What we built:**
+
 - Knowledge-based retrieval-augmented end-to-end speech translation
 - Cross-modal retriever: speech-to-speech, speech-to-text, text-to-text
 - Zero-shot terminology translation for open-domain recognition
 
 **Results:**
+
 - **17.6% improvement** in rare word accuracy with gold examples
 - **8.5% improvement** with retrieved examples
 - Speech-to-speech retrieval shows higher robustness to unseen speakers

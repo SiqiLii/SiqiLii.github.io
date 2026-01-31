@@ -24,6 +24,7 @@ Large language models can follow instructions, but struggle with **long-horizon 
 </div>
 
 **What we're building:**
+
 - Personality-prediction method that infers user persona from dialogue history
 - Reinforcement fine-tuning (RFT) for long-context preference following
 - Dynamic preference memory module with per-turn updates and conflict resolution

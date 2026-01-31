@@ -123,25 +123,13 @@
       "name": "Machine Learning",
       "level": "Expert",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Vision-Language Models",
-        "Adversarial Robustness",
-        "Reinforcement Learning",
-        "LLM Fine-tuning",
-        "Retrieval-Augmented Generation"
-      ]
+      "keywords": ["Vision-Language Models", "Adversarial Robustness", "Reinforcement Learning", "LLM Fine-tuning", "Retrieval-Augmented Generation"]
     },
     {
       "name": "Programming",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "MATLAB",
-        "Julia",
-        "ROS"
-      ]
+      "keywords": ["Python", "C/C++", "MATLAB", "Julia", "ROS"]
     }
   ],
   "languages": [
@@ -165,20 +153,12 @@
     {
       "name": "AI Safety & Alignment",
       "icon": "fa-solid fa-shield",
-      "keywords": [
-        "Adversarial Robustness",
-        "Formal Verification",
-        "Trustworthy AI"
-      ]
+      "keywords": ["Adversarial Robustness", "Formal Verification", "Trustworthy AI"]
     },
     {
       "name": "Robotics",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Vision-Language-Action Models",
-        "Human-Robot Collaboration",
-        "Autonomous Systems"
-      ]
+      "keywords": ["Vision-Language-Action Models", "Human-Robot Collaboration", "Autonomous Systems"]
     }
   ]
 }

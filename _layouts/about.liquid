@@ -78,7 +78,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2 class="section-heading">
-        <span class="section-number">{% if page.latest_posts and page.latest_posts.enabled %}§3{% else %}§2{% endif %}</span>
+        <span class="section-number">
+          {%- if page.latest_posts and page.latest_posts.enabled %}§3{% else %}§2{% endif -%}
+        </span>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
