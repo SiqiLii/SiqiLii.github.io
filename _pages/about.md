@@ -18,15 +18,15 @@ selected_papers: true
 social: true
 
 research_pillars:
-  - icon: "🛡️"
-    label: "Adversarial Robustness"
-    url: "/research/adversarial/"
   - icon: "🤖"
-    label: "Vision-Language-Action Models"
+    label: "Vision-Language-Action Models for Robotics"
     url: "/research/vla/"
   - icon: "🧠"
-    label: "LLM Reasoning & Alignment"
+    label: "LLM Personalization"
     url: "/research/llm/"
+  - icon: "🛡️"
+    label: "AI Robustness"
+    url: "/research/adversarial/"
   - icon: "🌍"
     label: "Multilingual & Cross-Cultural AI"
     url: "/research/multilingual/"
