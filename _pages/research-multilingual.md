@@ -12,11 +12,11 @@ Multilingual AI systems often fail on **rare words**, **domain-specific terminol
 
 ---
 
-## Current Projects
+## Featured Research
 
 ### Retrieval-Augmented Speech Translation
 
-**Status:** Published at EMNLP 2024 | [Paper](https://aclanthology.org/2024.emnlp-main.708/)
+**Status:** Published at EMNLP 2024 | Advisor: Prof. Jan Niehues
 
 <div class="research-area">
   <span class="area-marker">→</span>
@@ -48,7 +48,10 @@ Rare words (names, technical terms, neologisms) are where translation systems fa
 
 ---
 
-## Related Publications
+## Paper & Resources
+
+- [Read the paper](https://aclanthology.org/2024.emnlp-main.708/)
+
 
 {% bibliography --query @*[keywords~=translation] %}
 
