@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student · <a href="https://engineering.uci.edu/dept/eecs">UC Irvine EECS</a> · AI Alignment, Robustness & VLA Systems
+subtitle: PhD Student · <a href="https://engineering.uci.edu/dept/eecs">UC Irvine EECS</a> · VLA Models for Robotics, LLM Personalization & AI Robustness
 
 profile:
   align: right
@@ -39,12 +39,12 @@ announcements:
 
 ### Hi! I’m Siqi 👋
 
-I work on **AI robustness and alignment**, with a particular interest in what happens when intelligent systems leave clean benchmarks and enter the real world.
+I work on **vision-language-action (VLA) models for robotics**, with a focus on dynamic manipulation—tasks where precise timing, velocity, and physical interaction are essential to success.
 
-My research asks a simple but uncomfortable question:  
-**how do we know an AI system is doing the _right thing_ when it fails quietly, faces distribution shift, or is intentionally attacked?**
+My research asks a simple but practical question:  
+**how do we make VLA models work well in dynamic tasks — moving objects, changing scenes, unexpected interruptions — the kind of conditions real applications actually demand?** I aim to extend their capabilities beyond controlled benchmarks to meet the demands of real-world applications.
 
-While much of robustness research is mathematical, I approach the problem **both theoretically and engineering-first**. I build systems, stress them, break them, and then ask what guarantees actually survive deployment.
+I combine **theoretical analysis with hands-on systems engineering**, translating research ideas into working robotic systems and evaluating them in simulation and on real hardware. My approach pairs practical solutions with principled analysis to understand why they work, where they fail, and how to improve them.
 
 I’m a PhD student in **EECS at UC Irvine**, advised by  
 [Prof. Yasser Shoukry](https://rcpsl.eng.uci.edu/yshoukry/) in the  
@@ -54,31 +54,19 @@ Previously, I was a visiting researcher at **Caltech**, working with
 
 ---
 
-### How I Think About Robustness
+### LLM Personalization
 
-I’m especially interested in robustness for **vision-language-action systems**, where failures are subtle, delayed, and hard to detect.
+Alongside robotics, I work on making **large language models fit each individual user** — and keep fitting them as the user and the model interact more and more over time.
 
-My work spans:
+The vision is simple: every user keeps a **local, private preference memory** on their own device — a batch of their past choices, feedback, and preference statements that stays on their end rather than in the model. At inference time the LLM **retrieves from that memory, RAG-style**, to understand who it is talking to and generate **preference-aligned** responses, without retraining and without shipping personal data to a server.
 
-- **Formal and provable guarantees** (e.g., adversarial detection with correctness proofs)
-- **System-level verification** for VLA-based robot policies
-- **Engineering-heavy evaluation pipelines** that expose real failure modes
+Along the way I study questions like:
 
-I care less about making models look good on paper — and more about **making failure visible, interpretable, and actionable**.
+- which signals in a user’s history are actually **stable and informative** (e.g., personality traits), and which are noise
+- how to **retrieve the right memories** for a given query rather than simply the most similar ones
+- how to **evaluate** whether a personalized response is truly aligned with the user, not just plausible
 
----
-
-### Building Real Systems (and Breaking Them)
-
-Beyond research prototypes, I enjoy building **interactive systems** that force models to operate under realistic constraints.
-
-I’ve worked on:
-
-- **Language-to-robot control systems** that integrate learning, planning, and feedback
-- **VR and game-like environments** (including Meta Quest–style setups) to study perception, interaction, and failure in embodied agents
-- **Simulation-driven stress tests** that reveal where “robust” models actually collapse
-
-Game engines and VR are especially useful here — they let us **design controlled worlds where failures are unavoidable**, observable, and repeatable.
+The goal is an LLM that becomes **more yours the longer you use it** — while the data that makes it yours never leaves your hands.
 
 ---
 
