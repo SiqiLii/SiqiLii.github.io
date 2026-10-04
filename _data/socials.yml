@@ -32,6 +32,7 @@ linkedin_username: siqi-li-79146a210 # your LinkedIn user name
 # research_gate_profile: # your profile on ResearchGate
 #rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: osQfLw8AAAAJ # your Google Scholar ID
+cv_pdf: CV_SiqiLi.pdf # filename of your CV saved in assets/pdf/
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id

@@ -12,11 +12,11 @@ Modern vision-language models achieve remarkable performance on standard benchma
 
 ---
 
-## Current Projects
+## Featured Research
 
 ### KoALA: KL-L0 Adversarial Detector via Label Agreement
 
-**Status:** Under review at ICLR 2026 | [arXiv](https://arxiv.org/abs/2510.12752)
+**Status:** Research at UC Irvine | Advisor: Prof. Yasser Shoukry
 
 <div class="research-area">
   <span class="area-marker">→</span>
@@ -42,7 +42,10 @@ Most adversarial detection methods lack formal guarantees — they work empirica
 
 ---
 
-## Related Publications
+## Paper & Resources
+
+- [Read the KoALA paper](https://arxiv.org/abs/2510.12752)
+
 
 {% bibliography --query @*[keywords~=adversarial] %}
 
